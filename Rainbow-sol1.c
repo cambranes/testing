@@ -16,20 +16,20 @@ divisiones hasta que el número llegue a 0
 
 int main(int argc, char *argv[]) {
 	
-	int valor, numeroDigitos;
+	int valor, numeroDigitos=0;
 	
 	/*Entradas*/
 	scanf("%d",&valor);
 	
 	/*Procedimiento*/
 	if(valor<0){
-		valor = valor * -1;    //Si el valor es negativo, lo convertimos positivo para contar sus digitos
+		valor = valor * -1;    /*Si el valor es negativo, lo convertimos positivo para contar sus digitos*/
 	}
 	while(1){
-		numeroDigitos++;    //Aumentamos el contador cada vez que hagamos una division
+		numeroDigitos++;    /*Aumentamos el contador cada vez que hagamos una division*/
 		valor = valor / 10;
 		if(valor==0){
-			break;   //Cuando acabemos con los digitos, salimos del ciclo
+			break;   /*Cuando acabemos con los digitos, salimos del ciclo*/
 		}
 	}
 	
@@ -38,3 +38,12 @@ int main(int argc, char *argv[]) {
 	
 	return 0;
 }
+
+/*Pruebas
+
+ E     | S | R |
+12     | 2 | 1 |
+0      | 1 | 1 |
+-65    | 2 | 1 |
+6000000| 7 | 1 |
+*/
