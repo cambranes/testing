@@ -35,4 +35,4 @@ int main(void) {
 	return 0;
 }
 
-*/	QA	Entrada 		Salida			Resultado	0				0				1	12345			5				5	43				2				2	2				1				1	*/
+*/QA	Entrada 		Salida			Resultado	0				0				1	12345			5				5	43				2				2	2				1				1	*/
