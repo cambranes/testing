@@ -1,5 +1,5 @@
 /*
-Autor: Zeus Sarmiento 25/Enero/18
+Equipo: Rainbow 25/Enero/18
 
 Entradas:
 Números con no más de 5 dígitos
@@ -23,13 +23,13 @@ int main(int argc, char *argv[]) {
 	
 	/*Procedimiento*/
 	if(valor<0){
-		valor = valor * -1;    //Si el valor es negativo, lo convertimos positivo para contar sus digitos
+		valor = valor * -1;    /*Si el valor es negativo, lo convertimos positivo para contar sus digitos*/
 	}
 	while(1){
-		numeroDigitos++;    //Aumentamos el contador cada vez que hagamos una division
+		numeroDigitos=numeroDigitos+1;    /*Aumentamos el contador cada vez que hagamos una division*/
 		valor = valor / 10;
 		if(valor==0){
-			break;   //Cuando acabemos con los digitos, salimos del ciclo
+			break;   /*Cuando acabemos con los digitos, salimos del ciclo*/
 		}
 	}
 	
