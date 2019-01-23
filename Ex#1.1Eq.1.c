@@ -15,4 +15,8 @@ int main(int argc, char *argv[]) {
 	/*Salidas*/
 	return 0;
 }
-
+/* 
+Autor QA: Emmanuel Azcorra
+Entradas: OK
+Salidas: OK
+*/
