@@ -15,3 +15,8 @@ int main(int argc, char *argv[]) {
 	/*Salidas*/
 	return 0;
 }
+/*
+QA.ANGELMOLINA
+Entrada:ok
+Salida:ok
+*/
