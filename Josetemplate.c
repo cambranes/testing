@@ -1,7 +1,7 @@
 /*
 Autor:Jose Eduardo Mendez Verdejo 23/Enero/19
 Entradas:
-Salidas:
+Salidas:ok
 Procedimiento general:
 */
 
@@ -14,3 +14,8 @@ int main(int argc, char *argv[]) {
 	/*Salidas*/
 	return 0;
 }
+/* QA: Guillermo Canto
+	Entradas:
+	Salidas: ok
+	El nombre cambiado fue correcto
+*/
