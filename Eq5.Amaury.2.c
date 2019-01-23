@@ -14,3 +14,6 @@ int main(int argc, char *argv[]) {
 	/*Salidas*/
 	return 0;
 }
+/*QA: Rodrigo Hernández */
+/*Entradas:
+Salida */
