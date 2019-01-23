@@ -15,3 +15,8 @@ int main(int argc, char *argv[]) {
 	/*Salidas*/
 	return 0;
 }
+
+/*
+	QA: Carlos Chan Gongora
+	El nombre cambiado fue correcto.
+*/
