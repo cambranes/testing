@@ -1,5 +1,5 @@
 /*
-Autor:Raul Rivadeneyra 23/Enero/19
+Autor:Guillermo Canto 23/Enero/19
 Entradas:
 Salidas:
 Procedimiento general:
