@@ -1,5 +1,5 @@
 /*
-Autor:Jorge Chí 23/Enero/19
+Autor:Edgar Cambranes 26/Enero/17
 Entradas:
 Salidas:
 Procedimiento general:
