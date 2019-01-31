@@ -30,7 +30,11 @@ sumOfFactors = factors.reduce(function(a,b) {
 document.write(factors);
 document.write(" sum: " + sumOfFactors);
 
-
+/*
+QA: Alejandro Torre Reyes
+Entradas: OK
+Salidas: OK
+*/
 
 
 
