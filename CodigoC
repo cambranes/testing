@@ -33,3 +33,8 @@ int main() {
     printf("%d",contador+1);
     return 0;
 }
+/*
+QA: Alejandro Torre Reyes
+Entradas: OK
+Salidas: OK
+*/
