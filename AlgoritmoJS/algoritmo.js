@@ -1,4 +1,4 @@
-//Para un número entero, calcular suma de los factores primos
+//Para un número entero, calcular la suma de los factores primos
 
 let number = prompt();  //Preguntamos la información al usuario
 let factors = []; //Creamos Array para almacenar los factores
