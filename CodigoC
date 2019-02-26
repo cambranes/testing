@@ -1,0 +1,40 @@
+#include <stdio.h>
+
+int main() {
+    int numero,i,contador;
+
+    //Se lee el numero
+    printf("Ingresa un numero entero");
+    scanf("%d",&numero);
+    //Se declara el contador i en 2 para que omita el numero 1 en los factores
+    i=2;
+    contador=0;
+    //Se pone un ing para evitar que se tomen valores igual o menores que 1
+    if (numero<=1) {
+        printf("Valor invalido");
+    } else {
+        //Ya comprobado el numero lo ponemos en dos ciclos whiles
+        //El ciclo de fuera controla que el factor buscado no supere al numero mismo
+        while (i<=numero) {
+            //El ciclo de dentro encuentra factores y divide el numero entre dichos factores hasta llegar a 1
+            while (numero>1) {
+                if (numero%i==0){
+                    numero=numero/i;
+                    //Se van sumando los factores encontrados
+                    contador=contador+i;
+                } else {
+                    i++;
+                }
+            }
+            i++;
+        }
+    }
+    //Se imprime la suma de factores
+    printf("%d",contador+1);
+    return 0;
+}
+/*
+QA: Alejandro Torre Reyes
+Entradas: OK
+Salidas: OK
+*/
