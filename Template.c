@@ -10,7 +10,8 @@ Procedimiento general:
 int main(int argc, char *argv[]) {
 	/*Entradas*/
 	
-	/*Procedimiento*/
+	/*Procedimiento*/
+
 	/*Salidas*/
 	return 0;
 }
